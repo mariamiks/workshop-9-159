@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/bkphoto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    float: left;
+    padding: 50px;
+    position:relative;
+    top: 10px;
+    left: 450px;
+}
+header ul a{
+    color: #000;
+    background-color: #C4C4C4;
+    padding: 18px 24px;
+    border-radius: 0 35px;
+}
+header ul a:hover{
+    background-color: #79B331;
+}
+.tim{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 650px;
+    top: 50px;
+}
+.wre{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: relative;
+    animation: wretriali 3s 3s infinite;
+}
+@keyframes wretriali{
+    0%{top: 0 ; left: 0;}
+    25%{top: 0; left: 470px;}
+    50%{top: 170px; left: 470px;}
+    75%{top: 170px; left: 0;}
+    100%{top: 0; left: 0;}
+}
+.aqcia{
+    font-size: 20px;
+    top: 10px;
+    left: 70px;
+    position: relative;
+}
+.time{
+    font-size: 48px;
+    color: #000;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.text{
+    width: 420px;
+    height: 50px;
+    position: relative;
+    left: 400px;
+    top: 150px;
+}
+.fotoli{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+    left: 370px;
+    top: -60px;
+    position: relative;
+}
+.clock{
+    position: relative;
+    top: 200px;
+    left: 760px;
+    color: #000;
+    font-size:50px;
+}
+.xazi{
+    position: relative;
+    background-color: #C4C4C4;
+    width: 0.5px;
+    height: 500px;
+    left: 840px;
+    top: 115px;
+}
+.text1{
+    width: 360px;
+    height: 50px;
+    position: relative;
+    left: 915px;
+    top: -300px;
+}
+.fotoli2{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 35px 0;
+    left: -75px;
+    top: -55px;
+    position: relative;
+}
+.text:hover{
+    color: #79B331;
+}
+.fotoli:hover{
+    background-color: #79B331;
+}
+.text1:hover{
+    color: #79B331;
+}
+.fotoli2:hover{
+    background-color: #79B331;
+}
+.text2{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    left: 380px;
+    top: -250px;
+}
+.fotoli3{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+    left: 390px;
+    top: -55px;
+    position: relative;
+}
+.text2:hover{
+    color:#79B331;
+}
+.fotoli3:hover{
+    background-color: #79B331;
+}
+.text3{
+    width: 370px;
+    height: 50px;
+    position: relative;
+    left: 915px;
+    top: -200px;
+}
+.text3:hover{
+    color: #79B331;
+}
+.fotoli4{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 35px 0;
+    left: -75px;
+    top: -55px;
+    position: relative;
+}
+.fotoli4:hover{
+    background-color: #79B331;
+}
